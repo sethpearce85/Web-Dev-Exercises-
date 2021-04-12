@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<label for="firstname">First Name:</label>
+		<input id="firstname" type="text" name="firstname" required>
+		<label for="lastname">Last Name:</label>
+		<input id="lastname" type="text" name="lastname" required>
+		<br> <!-- could have done each row in a div-->
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="male">
+		<label for="female">Female</label>
+		<input id="female"type="radio" name="gender" value="female">
+		<label for="other">Other</label>
+		<input id="other"type="radio" name="gender" value="other">
+		<br>
+		<label for="email">Email</label>
+		<input id="email" type="email" name="email" required >
+		<label for="password">Password</label>
+		<!-- could have done pattern here  of .{5,10}, with title attribute for error message-->
+		<input id="password" type="password" name="password" required 
+		minlength="5" maxlength="10">
+		<br>
+		<label >Birthday: </label>
+		<select name="month">
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">Mar</option>
+			<option value="Apr">Apr</option>
+			<option value="May">May</option>	
+		</select>
+		<select name="day">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>	
+		</select>
+		<select name="year">
+			<option value="1991">1990</option>
+			<option value="1992">1991</option>
+			<option value="1993">1992</option>
+			<option value="1994">1993</option>
+			<option value="1995">1994</option>
+		</select>
+		<br>
+		<label for="termsandcond">I Agree to the terms and conditions: </label>
+		<input id="termsandcond" type="checkbox" name="terms" required>
+		<br>
+		<button>Submit!</button>
+	</form>
+
+
+	
+	
+
+</body>
+</htm

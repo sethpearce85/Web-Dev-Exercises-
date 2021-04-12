@@ -1,0 +1,33 @@
+table{
+	/*border: 2px solid blue;*/
+
+
+	margin: auto;
+
+	
+
+}
+
+td{
+	/*border: 10px solid black;*/
+	width: 150px;
+	height: 150px;
+}
+
+h1{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+.vertical{
+	border-left: 2px solid orange;
+	border-right: 2px solid orange;
+}
+
+.horizontal{
+	border-bottom: 2px solid orange;
+	border-top: 2px solid orange;
+}

@@ -1,0 +1,32 @@
+body{
+	color: red;
+}
+ 
+ul{
+	color: purple;
+
+}
+
+p{
+	color: blue;
+}
+
+li{
+	color: orange;
+}
+
+.hilite{
+	color: yellow;
+}
+
+#special{
+	color: pink;
+}
+
+/*
+type selectors are lowest on specificity
+class will be order of mag 10 
+atribute will be order of mag 10
+
+ID Selector is the most specific 
+*/

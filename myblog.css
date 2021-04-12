@@ -1,0 +1,28 @@
+body{
+	border: 10px solid #ada9a8;
+	width: 70%;
+	max-width: 700px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hilighted{
+	border-left: 5px solid #ada9a8;
+	padding-left: 5px;
+}
+h3{
+	color: #29d2f4;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+h1{
+	color: #565a5b;
+}
+hr{
+	border: 1px solid #c9d1dd;
+}
+
+.post{
+	margin: 10px;
+}
